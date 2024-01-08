@@ -16,4 +16,4 @@
 - ipz-automotive/ - project repos
 
 ## External sources
-[AOSP for RPI4](https://github.com/matiassingers/awesome-readme)
+[AOSP for RPI4](https://github.com/raspberry-vanilla/android_local_manifest/tree/android-14.0)
