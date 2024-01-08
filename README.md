@@ -1,13 +1,19 @@
-Init project:
-repo init -u https://github.com/ipz-automotive/ipz-manifest -b main -m default.xml
+# IPZ-MANIFEST
 
-Sync project:
-repo sync -j8
+## Init project:
+```bash
+  repo init -u https://github.com/ipz-automotive/ipz-manifest -b main -m default.xml
+```
 
-Manifests:
-    googlesource/ - AOSP branch android-14.0.0_r20
-    raspberry-vanilla/ - AOSP for RPI4 branch android-14.0
-    ipz-automotive/ - project repos
+## Sync project:
+```bash
+  repo sync -j8
+```
 
-RPI4 sources:
-https://github.com/raspberry-vanilla/android_local_manifest
+## Manifest includes:
+- googlesource/ - AOSP branch android-14.0.0_r20
+- raspberry-vanilla/ - AOSP for RPI4 branch android-14.0
+- ipz-automotive/ - project repos
+
+# External sources
+[AOSP for RPI4](https://github.com/matiassingers/awesome-readme)
