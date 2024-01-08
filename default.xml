@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- AOSP 14 -->
+    <include name="googlesource/aosp14.xml"/>
+    
+    <!-- RASPBERRY-VANILLA -->
+    <include name="raspberry-vanilla/manifest_brcm_rpi.xml"/>
+    <include name="raspberry-vanilla/manifest_utilities.xml"/>
+    <include name="raspberry-vanilla/remove_projects.xml"/>
+    
+    <!-- IPZ-AUTOMOTIVE -->
+    <include name="ipz-automotive/ipz_automotive.xml"/>
+</manifest>

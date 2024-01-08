@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- remotes -->
+    <remote name="ipz-automotive" fetch="https://github.com/ipz-automotive/" />
+
+    <!-- projects -->
+    <!-- <project path="device/ipz-automotive/zoobr" name="device-zoobr" /> -->
+    <!-- <project path="vendor/ipz-automotive/cluster-app" name="cluster-app" /> -->
+    <!-- <project path="vendor/ipz-automotive/ivi" name="ivi-app" /> -->
+</manifest>
