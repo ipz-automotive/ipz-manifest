@@ -15,5 +15,5 @@
 - raspberry-vanilla/ - AOSP for RPI4 branch android-14.0
 - ipz-automotive/ - project repos
 
-# External sources
+## External sources
 [AOSP for RPI4](https://github.com/matiassingers/awesome-readme)
