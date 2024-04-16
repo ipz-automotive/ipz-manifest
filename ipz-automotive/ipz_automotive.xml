@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- remotes -->
-    <remote name="ipz-automotive" fetch="https://github.com/ipz-automotive/" />
+    <remote name="github" fetch="https://github.com/" />
 
     <!-- projects -->
-    <!-- <project path="device/ipz-automotive/zoobr" name="device-zoobr" /> -->
-    <!-- <project path="vendor/ipz-automotive/cluster-app" name="cluster-app" /> -->
-    <!-- <project path="vendor/ipz-automotive/ivi" name="ivi-app" /> -->
+    <project path="device/ipz-automotive/zoobr" name="ipz-automotive/device-zoobr" remote="github" revision="main"/>
+    <project path="vendor/ipz-automotive/car_emulator" name="ipz-automotive/vendor-car_emulator" remote="github" revision="main"/>
 </manifest>
