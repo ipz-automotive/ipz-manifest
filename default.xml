@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- AOSP 14 -->
-    <include name="googlesource/aosp14.xml"/>
+    <include name="googlesource/aosp14_r22.xml"/>
     
     <!-- RASPBERRY-VANILLA -->
     <include name="raspberry-vanilla/manifest_brcm_rpi.xml"/>
