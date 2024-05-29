@@ -4,7 +4,9 @@
     <remote name="github" fetch="https://github.com/" />
 
     <!-- projects -->
-    <project path="device/ipz-automotive/zoobr" name="ipz-automotive/device-zoobr" remote="github" revision="main"/>
+    <project path="device/ipz-automotive/zoobr" name="ipz-automotive/device-zoobr" remote="github" revision="main">
+        <linkfile src="mkimg.sh" dest="zoobr-mkimg.sh" />
+    </project>
     <project path="vendor/ipz-automotive/car_emulator" name="ipz-automotive/vendor-car_emulator" remote="github" revision="main"/>
     <project path="vendor/ipz-automotive/zoobr_vhal" name="ipz-automotive/vendor-zoobr_vhal" remote="github" revision="main"/>
     <project path="vendor/ipz-automotive/zoobr_cluster_qt" name="ipz-automotive/vendor-zoobr_cluster_qt" remote="github" revision="main"/>
